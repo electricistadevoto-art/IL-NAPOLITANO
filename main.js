@@ -1,3 +1,16 @@
+
+
+function abrirModal(pizza){
+Swal.fire({
+  title: pizza.nombre.toUpperCase(),
+  html: `<img src="${pizza.images}"> <p>${pizza.descripcion}</p> <p>${pizza.precio}</p>`,
+  confirmButtonText: 'Cerrar',
+  confirmButtonColor: '#0D7139',
+  width: '500px',
+})
+}
+
+
 document.addEventListener('DOMContentLoaded', cargarProductos);
 
 async function cargarProductos() {
@@ -9,10 +22,10 @@ async function cargarProductos() {
     li.innerHTML=`
 <div class="box">
                     <figure>
-                        <img src="${pizza.images}" />
+                        <img src="${pizza.images}" class="img-clickeable"/>
                         <figcaption>
                             <h3>${pizza.nombre}</h3>
-                            <p>${pizza.precio}</p>
+                            <p>${pizza.precio}${pizza.precio}</p>
                             <time>${pizza.fecha}</time>
                         </figcaption>
                     </figure>
@@ -21,6 +34,13 @@ async function cargarProductos() {
                     </button>
 </div>
  `;
+    // ✅ Abrir el modal al hacer clic en la imagen
+    const img = li.querySelector('.img-clickeable');
+    img.addEventListener('click', () => abrirModal(pizza));
+    
     gallery.appendChild(li);
   })
 }
+
+
+
