@@ -58,14 +58,14 @@
 "nombre": "pizza san martin",
 "precio": 20500,
 "fecha": "2026-10-22",
-"images": "",
+"images": "images/pizza-san-martin.webp",
 "descripcion": "pizza de muzzarella, aceitunas negras y morrones asados"
 },
 {
-"nombre": "pizza champignones, palmitos y alcauciles",
+"nombre": "champignones, palmitos y alcauciles",
 "precio": 40000,
 "fecha": "2026-11-03",
-"images": "images/pizza-de-muzzarella-champignones-palmitos-y-alcauciles.webp",
+"images": "images/muzzarella-champignones-palmitos-y-alcauciles.webp",
 "descripcion": "pizza de muzzarella, champignones, palmitos, alcauciles y abundantes aceitunas negras "
 }
 ]
