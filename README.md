@@ -21,7 +21,8 @@ Proyecto desarrollado con **HTML, CSS y JavaScript vanilla** (módulos ES6), sin
 
 - HTML
 - CSS
-- JS
+- JSON
+- JavaScript
 - [GoogleFonts](https://fonts.google.com/)
 - [Animate.css](https://animate.style)
 - [SweetAlert2](https://sweetalert2.github.io/)
@@ -52,6 +53,16 @@ Proyecto desarrollado con **HTML, CSS y JavaScript vanilla** (módulos ES6), sin
 ```
 ## 🚀 Cómo ejecutarlo en local
 
-Como el proyecto usa **módulos ES** y fetch para leer products.json, no funciona abriendo el HTML con doble clic 
-(file://). Hay que servirlo con un servidor local.
+Como el proyecto usa **módulos ES** y `fetch` para leer `products.json`, **no funciona abriendo el HTML con doble clic**
+(`file://`). Hay que servirlo con un servidor local.
+
+## 👤 Autor
+
+Desarrollado por **Lizbeth Choquehuanca Mamani y Pablo Blanco**
+- [Github](https://github.com/choquehuancamamanilizbeth81-hub/)
+- [Github](https://github.com/electricistadevoto-art)
+
+## 📄 Licencia
+
+Este proyecto está bajo la licencia MIT.
 
